@@ -27,9 +27,14 @@ body {
 
 @font-face {
 	font-family: 'Myriad Pro';
-	font-style: normal;
+	src: local('☺'),
+		 url('../fonts/myriad-pro.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/myriad-pro.otf')  format('opentype'),
+	     url('../fonts/myriad-pro.woff') format('woff'),
+	     url('../fonts/myriad-pro.ttf')  format('truetype'),
+	     url('../fonts/myriad-pro.svg#MyriadPro-SemiboldIt') format('svg');
 	font-weight: normal;
-	src: local('Myriad Pro'), url('../fonts/MyriadPro.woff') format('woff');
+	font-style: normal;
 }
 
 /* STYLES */
@@ -37,7 +42,9 @@ body {
 .brand-logo-bg {
     height: 49px;
     margin-top: 5px;
-    background-color: #9c2e22;
+    background-color: #9c2e22; /* фотошоп онлайн */
+    background-color: #9d2e21; /* psd */
+    background-color: #ab1808; /* заказчика */
 }
 
 .brand-logo {
