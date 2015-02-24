@@ -25,7 +25,7 @@ body {
     background: url(../images/button-bg.jpg) repeat-y #1a212e;
 }
 
-@font-face {
+/*@font-face {
 	font-family: 'Myriad Pro';
 	src: local('☺'),
 		 url('../fonts/myriad-pro.eot?#iefix') format('embedded-opentype'),
@@ -35,7 +35,7 @@ body {
 	     url('../fonts/myriad-pro.svg#MyriadPro-SemiboldIt') format('svg');
 	font-weight: normal;
 	font-style: normal;
-}
+}*/
 
 /* STYLES */
 
@@ -61,14 +61,14 @@ body {
     height: 26px;
     line-height: 26px;
     margin-top: 3px;
-    background: url(../images/brand-info-bg.jpg) repeat-y #1a212e;
+    background: url(../images/brand-info.jpg) no-repeat #1a212e;
     padding-left: 60px;
-    font-style: italic;
     color: #e4e5e6;
+    font-size: 17px;
+    /*
+    background: url(../images/brand-info-bg.jpg) repeat-y #1a212e;
     font-family: 'Myriad Pro';
-    font-family: Verdana;
-	letter-spacing: 1.3px;
-    font-size: 15px;
+    */
 }
 
 .logo {
