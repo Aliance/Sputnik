@@ -5,7 +5,6 @@ body {
     background: url(../images/bg.jpg) repeat-x #1a212e;
 }
 .container {
-    /*width: 978px;*/
     background-color: #ccc;
 }
 .container > .row {
@@ -30,7 +29,7 @@ body {
 .brand-logo-bg {
     height: 49px;
     margin-top: 5px;
-    background-color: #ab1808;
+    background-color: #9e3021;
 }
 
 .brand-logo {
@@ -126,12 +125,12 @@ body {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: #ab1808;
+    background-color: #9e3021;
 }
 
 .content a,
 .sidebar a {
-    color: #ab1808;
+    color: #9e3021;
     text-decoration: underline;
 }
 
@@ -166,7 +165,7 @@ body {
 .sidebar .block--heading {
     text-align: center;
     text-transform: uppercase;
-    background-color: #ab1808;
+    background-color: #9e3021;
 }
 
 .block--content {
