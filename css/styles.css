@@ -177,17 +177,6 @@ body {
     padding: 20px 10px 5px;
 }
 
-.sidebar .block--content .date {
-    width: 35px;
-    height: 40px;
-    color: #e4e5e6;
-    text-align: center;
-    padding: 0 5px;
-    font-size: 13px;
-    margin-right: 5px;
-    background: url(../images/date-bg.jpg) repeat-y #181e29;
-}
-
 .sidebar .block--content p {
     margin-bottom: 0;
 }
