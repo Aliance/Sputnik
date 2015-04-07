@@ -1,0 +1,12 @@
+.content .block--content {
+    padding: 15px;
+}
+
+#scheme {
+    display: inline-block;
+}
+
+#scheme img {
+    width: 615px;
+    max-width: 615px;
+}
